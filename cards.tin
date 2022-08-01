@@ -1,0 +1,84 @@
+.so tin.so
+.tl
+Card Games
+
+.game RUMMY
+.sec Cards
+Aces are either low or high but not both.  Jokers are wildcards.
+.sec Setup
+Each player draws a card.  The player with the lowest card deals first.
+The deal then proceeds clockwise.  The number of cards dealt depends on
+the number of players, according to the following chart:
+.TS
+center,tab(:);
+cc.
+Players:Cards
+_
+2:10
+3,4:7
+5,6:6
+.TE
+.pp
+The remaining cards are put into the stock pile, and the top card is
+flipped over and placed in a separate discard pile.
+.sec Gameplay
+Play begins to the left of the dealer and proceeds clockwise.  On his/her
+turn, each player draws the top card from the stock or discard pile.
+The player may then optionally meld or lay off before discarding a single
+card to the top of the discard pile to end his/her turn.
+.pp
+If the stock runs out the next player may choose to draw from the discard
+or to turn the discard pile over to form a new stock pile.  The discard
+pile is not shuffled.  After forming the new stock pile the top card is
+drawn to form the new discard pile just as was done during setup.
+.ssec Melding
+If a player has three cards of the same suite in a sequence (called
+a sequence or a run) (s)he may meld by laying these cards face up in
+front of him/her.  If (s)he has at least three cards of the same value
+but different suits (s)he can meld a group (also called a set or book).
+.pp
+Aces can be played as high or low but not both, i.e. The following
+2 sequences are valid: QKA, A23.  However, the folling sequence is
+invalid: KA2
+.pp
+Melding is optional.  A player may choose, for reasons of strategy,
+not to meld on a particular turn.
+.ssec "Laying off"
+Players may also choose to "lay off" some cards on an existing meld.
+If a player can add to a sequence or group in front of them or any other
+player they may do so.  This is only allowed after melding at least one
+group or run.
+.pp
+For example, if another player had a sequence consisting of A23 in front
+of them, a player holding 4 or 45 would be able to add them to the end
+of the sequence.
+.ssec Discard
+Finally, after any melds or lay offs, the player must discard a single
+card face up to the discard pile.  If the player drew from the discard
+pile instead of the stock, (s)he may not replace the same card to the
+discard.
+.sec Scoring
+After a player has played all his/her cards the hand ends.  The value of
+all the cards still held by any player is added to the winner's score.
+Face cards are 10 each, aces are 15, and number cards are taken at
+face value.
+.sec Extensions
+Allowing aces as both high and low \(bu Requiring discard of final card
+\(bu Allowing melds on the table to be reorganized
+
+.bp
+.game "CRAZY EIGHTS"
+.sec Setup
+Five cards are dealt to each player.  The remaining cards of the deck
+are placed face down in the center of the table as a stock pile.  The top
+card is turned face up to start the discard pile.
+.sec Gameplay
+Play commences to the left of the dealer.  Players discard by matching
+rank or suit with the top card of the discard pile.  Players are also
+allowed to discard any 8 at any time.  If a player is unable to match
+the rank or suit of the top card of the discard and cannot play an 8,
+(s)he must draw a card from the stock pile.  When a player plays an 8,
+(s)he declares the suit that the next player is to play.  That player
+must follow the named suit or play another 8, otherwise drawing a card
+from the stock pile.  First player to empty their hand wins.
+

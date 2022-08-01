@@ -1,0 +1,30 @@
+tin
+
+These are instructions for games that can be played with components
+fit into an altoids tin.  Indeed, the resulting pdfs are sized to fit
+in an altoids tin as well.  The components include (mini) dice, (mini)
+pens/pencils, a (mini) deck of cards, and a (mini) pencil sharpener.
+The only additional component needed for some games is paper. Graph
+paper is preferable.
+
+files:
+	readme
+	mkfile
+	tin.so
+	cards.tin
+	.gitignore
+
+The pdfs are generated from ps generated from neatroff source files.
+Thus the following tools are required to build the pdfs:
+
+neatroff:	litcave.rudi.ir/neatroff.pdf
+	needs neatroff, neatpost, and 9tbl
+ps2pdf: 	ghostscript.com
+plan9 mk:	9fans.github.io/plan9port/unix
+
+Overview:
+tin.so has the formatting macros for all the pdfs.  *.tin provides one
+genre of games and builds to *.pdf.  The mkfile automates the process, but in a pinch, the following command will generate the pdf from the tin file:
+
+9tbl < [tinfile.tin] | neatroff | neatpost -p 508x762 | ps2pdf -dPDFSETTINGS=/prepress -dEmbedAllFonts=true - [pdffile.pdf]
+

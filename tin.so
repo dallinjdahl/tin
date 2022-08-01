@@ -1,0 +1,53 @@
+.fp - R CMR12
+.fp - B CMBX12
+.fp - I CMMI12
+.fp - CMEX CMEX10
+.fp - CMSY CMSY10
+.fspecial R CMEX CMSY
+.ps 8
+.vs 9p
+.po .3i
+.ll 1.4i
+.pl 3i
+.ad pb
+.nh
+.de hd
+'sp .3i
+..
+.de ft
+'bp
+..
+.wh 0 hd
+.wh -.3i ft
+.de hr
+.sp -.7l
+\h'|0'\l'\n(.lu\(ul'
+.sp .2l
+..
+.de pp
+.ti .1i
+..
+.de TS
+.sp .5l
+..
+.de TE
+.sp .5l
+..
+.de sec
+.br
+\fB\\$1:\fR
+..
+.de ssec
+.br
+\\$1:\l'|0_'
+..
+.de game
+.ce
+\\$1
+.hr
+..
+.de tl
+.sp |((\n(.pu-\n(.vu)/(3u))
+.ce
+..
+.blm bp
